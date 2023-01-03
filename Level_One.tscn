@@ -1,0 +1,756 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://block.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mid-block.png" type="Texture" id=3]
+[ext_resource path="res://down_block.png" type="Texture" id=4]
+
+[node name="Level_One" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 38, -93 )
+
+[node name="block" parent="." instance=ExtResource( 1 )]
+position = Vector2( 8, 85 )
+
+[node name="block2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 24, 85 )
+
+[node name="block3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 40, 85 )
+
+[node name="block4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 56, 85 )
+
+[node name="block5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 72, 85 )
+
+[node name="block6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 88, 69 )
+
+[node name="block7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 104, 69 )
+
+[node name="block8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 120, 53 )
+
+[node name="block9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 136, 37 )
+
+[node name="block10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 152, 37 )
+
+[node name="block11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 168, 37 )
+
+[node name="block12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 184, 37 )
+
+[node name="block13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 280, 69 )
+
+[node name="block19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 328, 85 )
+
+[node name="block22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 344, 85 )
+
+[node name="block23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 360, 85 )
+
+[node name="block20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 312, 85 )
+
+[node name="block21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 296, 85 )
+
+[node name="block14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 264, 53 )
+
+[node name="block15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 248, 37 )
+
+[node name="block16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 232, 37 )
+
+[node name="block17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 216, 37 )
+
+[node name="block18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 200, 37 )
+
+[node name="Mid-block" type="Sprite" parent="."]
+position = Vector2( 8, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block2" type="Sprite" parent="."]
+position = Vector2( 136, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block3" type="Sprite" parent="."]
+position = Vector2( 136, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block4" type="Sprite" parent="."]
+position = Vector2( 136, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block5" type="Sprite" parent="."]
+position = Vector2( 120, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block6" type="Sprite" parent="."]
+position = Vector2( 120, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block7" type="Sprite" parent="."]
+position = Vector2( 120, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block16" type="Sprite" parent="."]
+position = Vector2( 168, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block17" type="Sprite" parent="."]
+position = Vector2( 168, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block18" type="Sprite" parent="."]
+position = Vector2( 168, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block19" type="Sprite" parent="."]
+position = Vector2( 152, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block20" type="Sprite" parent="."]
+position = Vector2( 152, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block21" type="Sprite" parent="."]
+position = Vector2( 152, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block22" type="Sprite" parent="."]
+position = Vector2( 152, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block23" type="Sprite" parent="."]
+position = Vector2( 136, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block8" type="Sprite" parent="."]
+position = Vector2( 104, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block9" type="Sprite" parent="."]
+position = Vector2( 104, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block10" type="Sprite" parent="."]
+position = Vector2( 88, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block11" type="Sprite" parent="."]
+position = Vector2( 88, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block12" type="Sprite" parent="."]
+position = Vector2( 248, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block54" type="Sprite" parent="."]
+position = Vector2( 72, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block49" type="Sprite" parent="."]
+position = Vector2( 232, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block50" type="Sprite" parent="."]
+position = Vector2( 216, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block51" type="Sprite" parent="."]
+position = Vector2( 200, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block52" type="Sprite" parent="."]
+position = Vector2( 184, 53 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block53" type="Sprite" parent="."]
+position = Vector2( 264, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block41" type="Sprite" parent="."]
+position = Vector2( 248, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block42" type="Sprite" parent="."]
+position = Vector2( 232, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block43" type="Sprite" parent="."]
+position = Vector2( 216, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block44" type="Sprite" parent="."]
+position = Vector2( 200, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block45" type="Sprite" parent="."]
+position = Vector2( 184, 69 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block46" type="Sprite" parent="."]
+position = Vector2( 280, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block47" type="Sprite" parent="."]
+position = Vector2( 264, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block48" type="Sprite" parent="."]
+position = Vector2( 248, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block36" type="Sprite" parent="."]
+position = Vector2( 232, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block37" type="Sprite" parent="."]
+position = Vector2( 216, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block38" type="Sprite" parent="."]
+position = Vector2( 200, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block39" type="Sprite" parent="."]
+position = Vector2( 184, 85 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block40" type="Sprite" parent="."]
+position = Vector2( 359, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block24" type="Sprite" parent="."]
+position = Vector2( 343, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block25" type="Sprite" parent="."]
+position = Vector2( 328, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block26" type="Sprite" parent="."]
+position = Vector2( 312, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block27" type="Sprite" parent="."]
+position = Vector2( 296, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block28" type="Sprite" parent="."]
+position = Vector2( 280, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block29" type="Sprite" parent="."]
+position = Vector2( 264, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block30" type="Sprite" parent="."]
+position = Vector2( 248, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block31" type="Sprite" parent="."]
+position = Vector2( 232, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block32" type="Sprite" parent="."]
+position = Vector2( 216, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block33" type="Sprite" parent="."]
+position = Vector2( 200, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block34" type="Sprite" parent="."]
+position = Vector2( 184, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block35" type="Sprite" parent="."]
+position = Vector2( 168, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block13" type="Sprite" parent="."]
+position = Vector2( 56, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block14" type="Sprite" parent="."]
+position = Vector2( 40, 101 )
+texture = ExtResource( 3 )
+
+[node name="Mid-block15" type="Sprite" parent="."]
+position = Vector2( 24, 101 )
+texture = ExtResource( 3 )
+
+[node name="DownBlock" type="Sprite" parent="."]
+position = Vector2( 8, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock2" type="Sprite" parent="."]
+position = Vector2( 309, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock49" type="Sprite" parent="."]
+position = Vector2( 294, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock50" type="Sprite" parent="."]
+position = Vector2( 279, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock51" type="Sprite" parent="."]
+position = Vector2( 263, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock52" type="Sprite" parent="."]
+position = Vector2( 247, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock53" type="Sprite" parent="."]
+position = Vector2( 231, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock54" type="Sprite" parent="."]
+position = Vector2( 215, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock55" type="Sprite" parent="."]
+position = Vector2( 199, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock56" type="Sprite" parent="."]
+position = Vector2( 183, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock57" type="Sprite" parent="."]
+position = Vector2( 167, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock58" type="Sprite" parent="."]
+position = Vector2( 152, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock59" type="Sprite" parent="."]
+position = Vector2( 136, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock60" type="Sprite" parent="."]
+position = Vector2( 120, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock61" type="Sprite" parent="."]
+position = Vector2( 104, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock62" type="Sprite" parent="."]
+position = Vector2( 88, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock63" type="Sprite" parent="."]
+position = Vector2( 72, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock64" type="Sprite" parent="."]
+position = Vector2( 56, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock65" type="Sprite" parent="."]
+position = Vector2( 56, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock66" type="Sprite" parent="."]
+position = Vector2( 40, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock34" type="Sprite" parent="."]
+position = Vector2( 40, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock35" type="Sprite" parent="."]
+position = Vector2( 24, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock36" type="Sprite" parent="."]
+position = Vector2( 24, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock37" type="Sprite" parent="."]
+position = Vector2( 359, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock38" type="Sprite" parent="."]
+position = Vector2( 343, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock39" type="Sprite" parent="."]
+position = Vector2( 327, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock40" type="Sprite" parent="."]
+position = Vector2( 311, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock41" type="Sprite" parent="."]
+position = Vector2( 295, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock42" type="Sprite" parent="."]
+position = Vector2( 279, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock43" type="Sprite" parent="."]
+position = Vector2( 263, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock44" type="Sprite" parent="."]
+position = Vector2( 247, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock45" type="Sprite" parent="."]
+position = Vector2( 231, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock46" type="Sprite" parent="."]
+position = Vector2( 215, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock47" type="Sprite" parent="."]
+position = Vector2( 199, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock48" type="Sprite" parent="."]
+position = Vector2( 183, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock3" type="Sprite" parent="."]
+position = Vector2( 167, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock4" type="Sprite" parent="."]
+position = Vector2( 151, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock5" type="Sprite" parent="."]
+position = Vector2( 135, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock6" type="Sprite" parent="."]
+position = Vector2( 119, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock7" type="Sprite" parent="."]
+position = Vector2( 103, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock8" type="Sprite" parent="."]
+position = Vector2( 87, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock9" type="Sprite" parent="."]
+position = Vector2( 71, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock10" type="Sprite" parent="."]
+position = Vector2( 55, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock11" type="Sprite" parent="."]
+position = Vector2( 39, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock12" type="Sprite" parent="."]
+position = Vector2( 24, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock13" type="Sprite" parent="."]
+position = Vector2( 359, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock14" type="Sprite" parent="."]
+position = Vector2( 343, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock15" type="Sprite" parent="."]
+position = Vector2( 327, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock16" type="Sprite" parent="."]
+position = Vector2( 311, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock17" type="Sprite" parent="."]
+position = Vector2( 295, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock18" type="Sprite" parent="."]
+position = Vector2( 279, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock19" type="Sprite" parent="."]
+position = Vector2( 263, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock20" type="Sprite" parent="."]
+position = Vector2( 247, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock21" type="Sprite" parent="."]
+position = Vector2( 231, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock22" type="Sprite" parent="."]
+position = Vector2( 215, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock23" type="Sprite" parent="."]
+position = Vector2( 199, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock24" type="Sprite" parent="."]
+position = Vector2( 183, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock25" type="Sprite" parent="."]
+position = Vector2( 167, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock26" type="Sprite" parent="."]
+position = Vector2( 151, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock27" type="Sprite" parent="."]
+position = Vector2( 136, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock28" type="Sprite" parent="."]
+position = Vector2( 120, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock29" type="Sprite" parent="."]
+position = Vector2( 104, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock30" type="Sprite" parent="."]
+position = Vector2( 88, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock31" type="Sprite" parent="."]
+position = Vector2( 72, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock32" type="Sprite" parent="."]
+position = Vector2( 56, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock33" type="Sprite" parent="."]
+position = Vector2( 40, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock67" type="Sprite" parent="."]
+position = Vector2( 311, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock81" type="Sprite" parent="."]
+position = Vector2( 295, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock82" type="Sprite" parent="."]
+position = Vector2( 279, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock83" type="Sprite" parent="."]
+position = Vector2( 263, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock84" type="Sprite" parent="."]
+position = Vector2( 248, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock85" type="Sprite" parent="."]
+position = Vector2( 232, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock86" type="Sprite" parent="."]
+position = Vector2( 24, 117 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock87" type="Sprite" parent="."]
+position = Vector2( 8, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock113" type="Sprite" parent="."]
+position = Vector2( 360, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock114" type="Sprite" parent="."]
+position = Vector2( 344, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock115" type="Sprite" parent="."]
+position = Vector2( 328, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock104" type="Sprite" parent="."]
+position = Vector2( 312, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock105" type="Sprite" parent="."]
+position = Vector2( 296, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock106" type="Sprite" parent="."]
+position = Vector2( 280, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock107" type="Sprite" parent="."]
+position = Vector2( 264, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock108" type="Sprite" parent="."]
+position = Vector2( 248, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock109" type="Sprite" parent="."]
+position = Vector2( 232, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock110" type="Sprite" parent="."]
+position = Vector2( 216, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock111" type="Sprite" parent="."]
+position = Vector2( 200, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock112" type="Sprite" parent="."]
+position = Vector2( 184, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock94" type="Sprite" parent="."]
+position = Vector2( 168, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock95" type="Sprite" parent="."]
+position = Vector2( 152, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock96" type="Sprite" parent="."]
+position = Vector2( 136, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock97" type="Sprite" parent="."]
+position = Vector2( 120, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock98" type="Sprite" parent="."]
+position = Vector2( 104, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock99" type="Sprite" parent="."]
+position = Vector2( 88, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock100" type="Sprite" parent="."]
+position = Vector2( 72, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock101" type="Sprite" parent="."]
+position = Vector2( 56, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock102" type="Sprite" parent="."]
+position = Vector2( 40, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock103" type="Sprite" parent="."]
+position = Vector2( 24, 181 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock88" type="Sprite" parent="."]
+position = Vector2( 8, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock89" type="Sprite" parent="."]
+position = Vector2( 8, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock90" type="Sprite" parent="."]
+position = Vector2( 8, 133 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock91" type="Sprite" parent="."]
+position = Vector2( 358, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock92" type="Sprite" parent="."]
+position = Vector2( 342, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock93" type="Sprite" parent="."]
+position = Vector2( 327, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock68" type="Sprite" parent="."]
+position = Vector2( 216, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock69" type="Sprite" parent="."]
+position = Vector2( 200, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock70" type="Sprite" parent="."]
+position = Vector2( 184, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock71" type="Sprite" parent="."]
+position = Vector2( 168, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock72" type="Sprite" parent="."]
+position = Vector2( 152, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock73" type="Sprite" parent="."]
+position = Vector2( 136, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock74" type="Sprite" parent="."]
+position = Vector2( 120, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock75" type="Sprite" parent="."]
+position = Vector2( 104, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock76" type="Sprite" parent="."]
+position = Vector2( 88, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock77" type="Sprite" parent="."]
+position = Vector2( 72, 165 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock78" type="Sprite" parent="."]
+position = Vector2( 357, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock79" type="Sprite" parent="."]
+position = Vector2( 341, 149 )
+texture = ExtResource( 4 )
+
+[node name="DownBlock80" type="Sprite" parent="."]
+position = Vector2( 325, 149 )
+texture = ExtResource( 4 )
